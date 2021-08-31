@@ -1,4 +1,4 @@
-package com.example.mynavigationdrawer
+package com.example.mynavigationdrawer.activity
 
 import android.os.Bundle
 import android.view.Menu
@@ -12,6 +12,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
+import com.example.mynavigationdrawer.R
 import com.example.mynavigationdrawer.databinding.ActivityMainBinding
 import de.hdodenhof.circleimageview.CircleImageView
 

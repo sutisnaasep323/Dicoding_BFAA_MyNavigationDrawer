@@ -1,13 +1,14 @@
-package com.example.mynavigationdrawer
+package com.example.mynavigationdrawer.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mynavigationdrawer.R
 
 class SubwayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_subway)
 
-        supportActionBar?.title = "Nav Drawer 4.1.1"
+        supportActionBar?.title = "Subway Activity"
     }
 }
